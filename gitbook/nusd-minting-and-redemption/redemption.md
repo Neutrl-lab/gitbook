@@ -4,7 +4,7 @@ The redemption system provides two execution paths based on AssetReserve liquidi
 
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Instant Redemption
 

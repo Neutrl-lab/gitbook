@@ -5,14 +5,15 @@
 * [What is Neutrl ? ](README.md)
 * [Why Neutrl?](overview/why-neutrl.md)
 
-## How it works&#x20;
+## Protocol Design
 
-* [NUSD](how-it-works/nusd.md)
-* [sNUSD](how-it-works/snusd.md)
-* [Protocol Revenue](how-it-works/protocol-revenue.md)
-* [Portfolio Allocation](how-it-works/portfolio-allocation.md)
-* [Peg Mechanism](how-it-works/peg-mechanism.md)
-* [Transparency](how-it-works/transparency.md)
+* [How Neutrl Works](protocol-design/how-neutrl-works/README.md)
+  * [NUSD](protocol-design/how-neutrl-works/nusd.md)
+  * [sNUSD](protocol-design/how-neutrl-works/snusd.md)
+* [Protocol Revenue](protocol-design/protocol-revenue.md)
+* [Portfolio Allocation](protocol-design/portfolio-allocation.md)
+* [Peg Mechanism](protocol-design/peg-mechanism.md)
+* [Transparency](protocol-design/transparency.md)
 
 ***
 

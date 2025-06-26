@@ -33,7 +33,7 @@
 
 * If NUSD temporarily loses its peg, the protocol has several mechanisms in place to restore stability:
   * **Market Incentives**:\
-    Arbitrage opportunities naturally arise when NUSD deviates from its peg, incentivizing traders and market makers to buy or sell NUSD and redeem against USDC 1:1 to bring its price back in line with its intended value. See [Peg Mechanism](../how-it-works/peg-mechanism.md)
+    Arbitrage opportunities naturally arise when NUSD deviates from its peg, incentivizing traders and market makers to buy or sell NUSD and redeem against USDC 1:1 to bring its price back in line with its intended value. See [Peg Mechanism](../protocol-design/peg-mechanism.md)
   * **Delta Hedging Adjustments**:\
     The protocol adjusts its derivatives and perpetual futures positions to rebalance the collateral portfolio and stabilize NUSD's value.
   * **Reserve Deployment**:\
