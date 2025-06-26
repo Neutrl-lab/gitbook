@@ -4,7 +4,7 @@
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Typical Neutrl user flow: 1) Deposit → mint nUSD 2) Stake → earn sNUSD yield 3) Lock → boost rewards.</p></figcaption></figure>
 
-#### A. Minting N**USD** (issuance & redemption)
+#### N**USD** Issuance & Redemption
 
 1. **Deposit collateral**
    * Accepted assets today: **USDC, USDT, USDe**
@@ -18,7 +18,7 @@
    * NUSD is an ERC-20—plug-and-play across CEX margin accounts, DeFi money-markets and on-chain primitives.
    * Fast redemptions (≤ T+2) plus pristine backing make it “blue-chip” collateral wherever dollars are needed.
 
-#### B. Staking N**USD → sNUSD**
+#### Staking N**USD → sNUSD**
 
 1. **Stake**
    * Stake your NUSD into the **Staking Contract** to convert it into **sNUSD**.
@@ -28,7 +28,7 @@
 
 _(Unstake at any time and you receive NUSD + accrued yield, subject to the 30-day cool-down.)_
 
-#### C. Locking N**USD / sNUSD / LP tokens**
+#### Locking N**USD / sNUSD**
 
 1. **Choose a lock tenor**
    * Lock assets for **6 / 9 / 12 months** inside the **Locking Contract**.

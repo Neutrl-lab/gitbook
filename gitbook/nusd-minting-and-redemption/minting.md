@@ -1,10 +1,10 @@
 # Minting
 
-### Minting NUSD
+Minting NUSD
 
 The NUSD minting process implements strict controls to ensure full collateralization of all issued tokens while maintaining protocol security and efficiency.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Yield_2_1920.png" alt=""><figcaption></figcaption></figure>
 
 ### Process flow
 

@@ -2,9 +2,7 @@
 
 The staking system centers on `sNUSD`, an ERC4626-compliant vault where users deposit NUSD to receive sNUSD shares representing their proportional claim on vault holdings. These shares appreciate in value as the protocol accrues and distributes yield through a reward mechanism.
 
-
-
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Yield_4_1920 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Yield Generation Flow
 

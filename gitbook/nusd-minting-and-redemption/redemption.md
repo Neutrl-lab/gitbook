@@ -2,9 +2,7 @@
 
 The redemption system provides two execution paths based on AssetReserve liquidity availability, ensuring users maintain continuous access to their collateral.
 
-
-
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Yield_3_1920.png" alt=""><figcaption></figcaption></figure>
 
 #### Instant Redemption
 

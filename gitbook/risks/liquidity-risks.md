@@ -22,6 +22,4 @@ The illiquid nature of OTC/Secondary deals means that these positions ideally sh
    * This includes reallocating capital from funding arbitrage to OTC/Secondary deals (or vice versa) based on liquidity needs.
 6. **Secondary Market Liquidity**:
    * The protocol has access at all times to the secondaries market to unwind illiquid positions through partnerships with leading secondaries brokerages and exchanges
-7. **Lending Pool:**
-   * \[NEED SOME DESCRIPTION OF HOW THIS MECHANISM WILL WORK]
 
