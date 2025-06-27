@@ -1,9 +1,9 @@
 # Why Neutrl?
 
-**Neutrl transforms the ordinary stablecoin into the most efficient wealth-preservation asset in crypto.**
+**Neutrl transforms the ordinary synthetic dollar into the most efficient wealth-preservation asset in crypto.**
 
 \
-Traditional stablecoins slowly erode your purchasing power; by contrast, Neutrl gives it steady growth by unlocking access to yield typically reserved for hedge funds, OTC desks, and high-net-worth wallets.
+Traditional on-chain dollars slowly erode your purchasing power; by contrast, Neutrl gives it steady growth by unlocking access to yield typically reserved for hedge funds, OTC desks, and high-net-worth wallets.
 
 #### The problem
 
