@@ -10,7 +10,7 @@ The protocol’s portfolio is strategically allocated to balance liquidity, yiel
   * Provides immediate liquidity to ensure NUSD holders can redeem at any time.
   * Funds the **base yield** distributed to sNUSD.
 * **Risk Profile**:\
-  These assets are low-risk and highly liquid, ensuring the protocol can meet redemption demands and maintain stability during periods of market stress.
+  These assets are lower-risk and highly liquid, ensuring the protocol can meet redemption demands and maintain stability during periods of market stress.
 
 ***
 

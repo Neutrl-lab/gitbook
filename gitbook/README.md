@@ -53,7 +53,7 @@ The protocol maintains NUSD’s peg by using **delta hedging derivatives** again
 When new NUSD flows in, **sNUSD’s headline yield is marginally diluted**, and starts the flywheel effect as capital seeks higher returns:
 
 1. **As yield compresses, investors seek out higher yielding and riskier opportunities.**\
-   As liquid APY drifts toward the on-chain risk-free rate, yield-seekers look for higher yield. They may stake their NUSD, convert to sNUSD, or extend their existing locks to 6-, 9- or 12-month terms.
+   As liquid APY drifts toward the on-chain cash-equivalent rate, yield-seekers look for higher yield. They may stake their NUSD, convert to sNUSD, or extend their existing locks to 6-, 9- or 12-month terms.
 2. **Longer lock durations unlock more opportunities.**\
    With more capital allocated to longer terms, the protocol can deploy into more and larger OTC and basis arbitrage opportunities that are more viable at scale.
 3. **Higher deployment increases APY.**\

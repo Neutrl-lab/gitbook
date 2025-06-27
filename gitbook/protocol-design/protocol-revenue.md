@@ -20,7 +20,7 @@ The protocol generates revenue from diversified strategies designed to optimize 
 
 ### 3. Yield-Bearing Stablecoins
 
-**Mechanism:** A portion of the protocol's reserves is allocated to yield-bearing stablecoins or short-term US Treasury securities, which track the overnight risk-free interest rate.
+**Mechanism:** A portion of the protocol's reserves is allocated to yield-bearing stablecoins or short-term US Treasury securities, which track the overnight "tradfi" risk-free interest rate.
 
 **Revenue Generation:** These positions generate predictable and low-risk yield, which serves as the primary reserves for redemptions and capital requirements.
 

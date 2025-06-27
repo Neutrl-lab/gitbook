@@ -16,7 +16,7 @@ Traditional stablecoins slowly erode your purchasing power; by contrast, Neutrl 
 
 #### Our answer
 
-Neutrl simplifies the playbook for wealth generation in crypto. We combine three institutional-grade strategies - liquid basis trades, on-chain risk-free rates, and arbitrage opportunities - into a single, cohesive protocol. This protocol matches durations efficiently, channels yield directly to holders, and requires no active management.
+Neutrl simplifies the playbook for wealth generation in crypto. We combine three institutional-grade strategies - liquid basis trades, on-chain cash-equivalent rates, and arbitrage opportunities - into a single, cohesive protocol. This protocol matches durations efficiently, channels yield directly to holders, and requires no active management.
 
 | Token     | What you get                                                                                    |
 | --------- | ----------------------------------------------------------------------------------------------- |
