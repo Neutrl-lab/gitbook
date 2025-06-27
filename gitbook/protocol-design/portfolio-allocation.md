@@ -82,9 +82,7 @@ Because the liability curve is constantly evolving - users can roll, extend, or 
 
 The result is an allocation strategy that adapts to the protocol’s liabilities in real time—remaining liquid and defensive during bearish conditions, while maximizing opportunities during bullish markets.
 
-<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-4-5951673806160512769-y.jpg" alt=""><figcaption><p>Assets backing NUSD/sNUSD adapt dynamically based on prevailing market conditions and yield opportunities </p></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Assets backing NUSD/sNUSD adapt dynamically based on prevailing market conditions and yield opportunities </p></figcaption></figure>
 
 ***
 
