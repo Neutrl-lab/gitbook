@@ -23,7 +23,7 @@
 1. **Stake**
    * Stake your NUSD into the **Staking Contract** to convert it into **sNUSD**.
 2. **Earn the Neutrl rate**
-   * All protocol income - basis arbitrage, OTC carry, on-chain treasuries - flows to the yield pool.
+   * All protocol income - basis arbitrage, OTC carry, on-chain reference yield - flows to the yield pool.
    * Every epoch the pool **re-indexes sNUSD balances upward**
 
 _(Unstake at any time and you receive NUSD + accrued yield, subject to the 30-day cool-down.)_

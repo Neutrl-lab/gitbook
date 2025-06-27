@@ -76,7 +76,7 @@ The protocol employs a **dynamic allocation strategy** to adapt to changing mark
 Crypto markets swing from fear to euphoria faster than any traditional markets. This volatility demands a nimble and adaptive allocator. Neutrl's strategy is designed to respond dynamically to changing market conditions:
 
 * **OTC Sleeve:** Deal flow is highly opportunistic. In some weeks, attractive 6- or 9-month deals may surface; in others, suitable opportunities may be scarce. The protocol only deploys into positions when returns exceed our risk-adjusted hurdle rate and aligns with the duration ladder. If no suitable deals are available, we simply wait.
-* **Liquid strategy:** Capital is deployed only when the expected return beats both the risk-free stablecoin benchmark and the internal excess-return target. This ensures protocol safety by preserving over-collateralization, liquidity buffers, and minimal weighted-average maturity gaps.
+* **Liquid strategy:** Capital is deployed only when the expected return beats both the cash-equivalent yield-bearing rate benchmark and the internal excess-return target. This ensures protocol safety by preserving over-collateralization, liquidity buffers, and minimal weighted-average maturity gaps.
 
 Because the liability curve is constantly evolving - users can roll, extend, or redeem - the allocation engine continuously rebalances. Buckets that shrink are allowed to roll off, while buckets that grow are funded by closing surplus trades. If the market offers favourable spreads, new positions may be opened further out on the curve.
 
@@ -92,11 +92,11 @@ The result is an allocation strategy that adapts to the protocol’s liabilities
 
 Below is an example of how the protocol might allocate its portfolio under normal market conditions:
 
-| **Asset Category**                         | **Allocation (% of Portfolio)** | **Purpose**                                  |
-| ------------------------------------------ | ------------------------------- | -------------------------------------------- |
-| Liquid Reserves (Stablecoins & Treasuries) | 20%                             | Ensures liquidity and base yield.            |
-| Hedged OTC Positions                       | 20%                             | Generates revenue via discounts and staking. |
-| Delta-Neutral Strategies                   | 60%                             | Provides consistent, low-risk yield.         |
+| **Asset Category**                      | **Allocation (% of Portfolio)** | **Purpose**                                  |
+| --------------------------------------- | ------------------------------- | -------------------------------------------- |
+| Liquid Reserves (Yield-bearing Dollars) | 20%                             | Ensures liquidity and base yield.            |
+| Hedged OTC Positions                    | 20%                             | Generates revenue via discounts and staking. |
+| Delta-Neutral Strategies                | 60%                             | Provides consistent, low-risk yield.         |
 
 _Note: The exact allocation will vary depending on market conditions, protocol growth, and liquidity needs._
 
