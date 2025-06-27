@@ -1,35 +1,35 @@
 # Why Neutrl?
 
-**Neutrl exists to turn a plain-vanilla dollar into the most efficient wealth-preservation asset in crypto.**\
-Traditional stable-coins freeze your purchasing power; Neutrl gives it a steady tail-wind by opening the door to yield engines normally reserved for funds, desks and “qualified” wallets.
+**Neutrl transforms the ordinary stablecoin into the most efficient wealth-preservation asset in crypto.**
+
+\
+Traditional stablecoins slowly erode your purchasing power; by contrast, Neutrl gives it steady growth by unlocking access to yield typically reserved for hedge funds, OTC desks, and high-net-worth wallets.
 
 #### The problem
 
-1. **Institution-grade yield is gated.**\
-   The best carry trades, basis spreads and funding-rate harvests clear through OTC desks and prime brokers that demand seven-figure tickets, credit relationships and legal firepower.
-2. **Public stable-coins pocket the upside.**\
-   USDC, USDT and their clones earn on the backing collateral but pass almost nothing to holders. Your dollar stays flat while the issuer compounds.
-3. **DIY strategies are brittle.**\
-   Retail yield farms spike, decay and sometimes implode. Chasing them is a full-time job with headline risk, smart-contract risk and other idiosyncractic risks.
+1. **Institutional-grade yield is gated.**\
+   The most lucrative opportunities - carry trades, basis spreads, and funding-rate arbitrage - are locked behind the gates of OTC desks and prime brokers. These require millions of dollars in capital, established relationships, and costly legal expertise.
+2. **Public stablecoins keep the profits.**\
+   Leading stablecoins like USDC, USDT, and their clones earn on their collateral but pass little to nothing back to holders. Your dollar stays stagnant while the issuer reaps the rewards.
+3. **DIY yield strategies are fragile.**\
+   Retail yield farms are unreliable - often spiking briefly before decaying. Managing these strategies is a full-time job with many risks, including smart-contract failures, volatile returns, and systemic implosions.
 
 #### Our answer
 
-Neutrl packages three institutional playbooks—**liquid basis, on-chain risk-free rate, and institutional arbitrage**—into a single, duration-matched protocol with the yield flowing straight to holders.
+Neutrl simplifies the playbook for wealth generation in crypto. We combine three institutional-grade strategies - liquid basis trades, on-chain risk-free rates, and arbitrage opportunities - into a single, cohesive protocol. This protocol matches durations efficiently, channels yield directly to holders, and requires no active management.
 
-| Token     | What you get                                                                |
-| --------- | --------------------------------------------------------------------------- |
-| N**USD**  | A spendable, highly capital efficient and composable T+2-redeemable dollar  |
-| **sNUSD** | A “turbo-dollar” that auto reindexes with protocol’s net income.            |
+| Token     | What you get                                                                                    |
+| --------- | ----------------------------------------------------------------------------------------------- |
+| N**USD**  | A spendable, highly capital efficient, and composable synthetic dollar with full redeemability. |
+| **sNUSD** | A high-yield synthetic dollar that auto reindexes with protocol’s net income.                   |
 
-<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-4-5951673806160512774-y.jpg" alt=""><figcaption><p>Neutrl's NUSD and sNUSD are fully-backed, highly capital efficient, yield-bearing and have a conceivable path towards a decentralised level of governance</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-4-5951673806160512774-y.jpg" alt=""><figcaption><p>NUSD and sNUSD are fully-backed, yield-bearing, and highly capital efficient, with a clear path towards decentralized governance.</p></figcaption></figure>
 
-#### Why Neutrl is better than legacy stables
+#### Why Neutrl Outperforms Legacy Stablecoins
 
-* **Yield you can see.** Your balance grows every day; no need to chase pools or wrap your coins.
-* **Same liquidity promise.** NUSD redemptions clear in ≤ 48 h—identical to USDC’s wire-out time.
-* **Risk controlled on-chain.** Assets and liabilities are locked in a 1-for-1 duration ladder, with minimal weighted-average-maturity gap&#x20;
-* **No privileged front-row.** Minimum size is one token; every holder, big or small, accesses the same institutional yields.
+* **Visible Yield:** Your balance grows every day; no need to chase pools or wrap your coins.
+* **Always Redeemable:** NUSD is always fully redeemable for USDC and USDT\`
+* **On-chain Risk Management:** Assets and liabilities are locked in a 1:1 duration ladder, minimizing maturity mismatches and ensuring stability.
+* **Equal Access:** With no privileged access, every holder - from individuals to large institutions - earns the same institutional-grade yields, all with the same token.
 
-
-
-By combining crypto-native trading yield with institutional strategies, Neutrl unlocks a new category of decentralised, high-yield opportunities for traders and liquidity providers alike.
+By blending crypto-native trading yields with institutional-grade strategies, Neutrl unlocks a new class of decentralized, high-yield opportunities for both traders and liquidity providers.

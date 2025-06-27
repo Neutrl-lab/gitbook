@@ -7,7 +7,7 @@ The protocol’s portfolio is strategically allocated to balance liquidity, yiel
 * **Allocation**:\
   A portion of the portfolio is held in highly liquid stablecoins (e.g., USDC, USDT, USDe) and yield-bearing stablecoins.
 * **Purpose**:
-  * Provides immediate liquidity to ensure NUSD holders can redeem 1:1 for USDC at any time.
+  * Provides immediate liquidity to ensure NUSD holders can redeem at any time.
   * Funds the **base yield** distributed to sNUSD.
 * **Risk Profile**:\
   These assets are low-risk and highly liquid, ensuring the protocol can meet redemption demands and maintain stability during periods of market stress.
@@ -42,15 +42,17 @@ The protocol’s portfolio is strategically allocated to balance liquidity, yiel
 
 <div align="center" data-full-width="true"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p> Illiquid OTC assets may be selected with matched durations based on known maturities of liabilities, increasing profitability and reducing liquidity crunch risk </p></figcaption></figure></div>
 
-A key principle for the protocol is ensuring that liabilities are duration matched with assets that the protocol holds.  The benefits of this are clear, thus the “duration match” sits alongside over-collateralisation and the buffer as a primary safety rail for the protocol. Key importance:&#x20;
+A fundamental principle of the protocol is ensuring that liabilities are duration-matched with the assets it holds. This “duration match” works alongside over-collateralization and capital buffers as a key safety mechanism for the protocol. The benefits are clear:
 
-* **Reduces forced selling.** If liabilities can exit sooner than assets mature, redemptions would force the protocol to sell positions at a discount. By matching maturities we remove that fire-sale risk.
-* **Future-proofs regulation.** Supervisors, auditors and potential partners treat a lower weighted avergae maturity gap as ''safer" - leading to more partnerships, growth and TVL gain
-* **Frees up capital.** Because redemptions are self-funded by maturing assets, Neutrl can run a leaner cash buffer and push more capital into productive trades—lifting net yield for sNUSD holders.
+* **Reduces Forced Selling:** By aligning the maturity of liabilities with assets, the protocol avoids the need to sell positions at a discount during redemptions. This eliminates fire-sale risks, ensuring stability even during high withdrawal periods.
+* **Regulatory Compliance:** Supervisors, auditors, and potential partners view a lower weighted-average maturity gap as a safer structure. This enhances the protocol’s credibility, paving the way for partnerships, regulatory approvals, and increased TVL growth.
+* **Optimizes Capital Efficiency:** With redemptions funded by maturing assets, Neutrl can maintain a leaner cash buffer and deploy more capital into productive trades—boosting net yields for sNUSD holders.
 
-As users roll from one lock to the next, the protocol **re-ladders**—closing matured positions and opening new ones further out on the curve. Because inflows and outflows are never perfectly synchronous, we reserve the right to **marginally allocate** to the _next_ tenor (e.g., recycling part of the 6-month asset into a 9-month trade). This keeps the ladder continuous while avoiding idle capital drag. This could open up some bunching of redemptions further down the line, particularly if locking behaviour lessens, but immediate liquidity in secondary markets as well as third party credit lines are readily available and can be used to alleviate redemption queues (see Redemption section).
+As users roll their positions from one lock to the next, the protocol re-ladders its assets - closing matured positions and reallocating capital into new positions further along the curve. In cases where inflows and outflows are not perfectly synchronized, the protocol may allocate a portion of shorter-term assets (e.g., a 6-month position) into the next tenor (e.g., a 9-month trade). This ensures continuity in the ladder while avoiding idle capital drag.
 
-The result being higher, more sustainable yield for sNUSD holders and faster redemptions for nUSD users
+While this approach may lead to some bunching of redemptions further down the line, the protocol has mechanisms in place to mitigate this risk. Immediate liquidity from secondary markets and third-party credit lines can alleviate potential redemption queues (see Redemption section for details).
+
+The result: **higher, more sustainable yields for sNUSD holders and faster, more reliable redemptions for NUSD users.**
 
 ***
 
@@ -69,16 +71,18 @@ The protocol employs a **dynamic allocation strategy** to adapt to changing mark
 4. **Treasury Growth**:
    * Some portion of yields are retained in the reserve fund, allowing the protocol to strengthen its financial stability for times of market stress
 
-**Putting the philosophy to work**
+**Putting the Philosophy into Practice**
 
-Crypto markets whip from fear to euphoria faster than any traditional desk. That volatility demands a **nimble allocator**:
+Crypto markets swing from fear to euphoria faster than any traditional markets. This volatility demands a nimble and adaptive allocator. Neutrl's strategy is designed to respond dynamically to changing market conditions:
 
-* **OTC sleeve.** Deal flow is opportunity-driven: some weeks present rich 6- or 9-month clips; others are barren. The protocol sizes positions only when pricing beats our risk-adjusted hurdle and slots neatly into the ladder. No suitable deals? We wait.
-* **Liquid strategy sleeve.** Capital is deployed only if the expected return clears the _risk-free stablecoin benchmark + an internal excess-return hurdle_, while still preserving over-collateralisation, liquidity buffers, and any weighted average maturity deltas
+* **OTC Sleeve:** Deal flow is highly opportunistic. In some weeks, attractive 6- or 9-month deals may surface; in others, suitable opportunities may be scarce. The protocol only deploys into positions when returns exceed our risk-adjusted hurdle rate and aligns with the duration ladder. If no suitable deals are available, we simply wait.
+* **Liquid strategy:** Capital is deployed only when the expected return beats both the risk-free stablecoin benchmark and the internal excess-return target. This ensures protocol safety by preserving over-collateralization, liquidity buffers, and minimal weighted-average maturity gaps.
 
-Because the liability curve itself is alive—users can roll, extend, or redeem—the allocation engine continuously re-ladders. Buckets that shrink are allowed to roll off; buckets that grow are funded by closing surplus trades or, if spreads are attractive, by opening positions further out the curve. The result is an allocation strategy that **breathes with the protocol’s liabilities, not against them**—staying liquid in bearish conditions and opportunistic in bullish conditions.
+Because the liability curve is constantly evolving - users can roll, extend, or redeem - the allocation engine continuously rebalances. Buckets that shrink are allowed to roll off, while buckets that grow are funded by closing surplus trades. If the market offers favourable spreads, new positions may be opened further out on the curve.
 
-<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-4-5951673806160512769-y.jpg" alt=""><figcaption><p>Assets backing NUSD/sNUSD adapt dynamically based on prevailing market conditions and ambient yield opportunities </p></figcaption></figure>
+The result is an allocation strategy that adapts to the protocol’s liabilities in real time—remaining liquid and defensive during bearish conditions, while maximizing opportunities during bullish markets.
+
+<figure><img src="../.gitbook/assets/telegram-cloud-photo-size-4-5951673806160512769-y.jpg" alt=""><figcaption><p>Assets backing NUSD/sNUSD adapt dynamically based on prevailing market conditions and yield opportunities </p></figcaption></figure>
 
 
 

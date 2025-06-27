@@ -13,7 +13,7 @@ Neutrl distributes generated yield exclusively to sNUSD holders. Users stake NUS
 Upon unstaking, sNUSD tokens are burned and users receive their proportional share of NUSD based on the current exchange rate. The protocol enforces a 30-day cooldown period before withdrawals can be executed.
 
 {% hint style="info" %}
-The cooldown period ensures that the protocol can withdraw enough collateral, which may require time.
+The cooldown period ensures that there is enough time to unwind the collateral to meet the redemption
 {% endhint %}
 
 ### Yield Accrual Mechanism

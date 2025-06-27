@@ -25,7 +25,7 @@ The AssetReserve maintains a dynamically calibrated liquid buffer designed to se
 For redemption requests exceeding the current liquid buffer:
 
 * The protocol generates a redemption request and adds it to the processing queue
-* All queued requests are fulfilled within a 48-hours processing window
+* All queued requests are fulfilled within a 48-hour processing window
 * Users retain full visibility of their redemption status throughout the process
 
 

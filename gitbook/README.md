@@ -13,7 +13,7 @@ Neutrl is a market-neutral synthetic dollar designed to unlock untapped yield op
 Neutrl creates a synthetic dollar, **NUSD**, that captures asymmetric yield opportunities while maintaining market neutrality. This is achieved through:
 
 * **OTC Arbitrage**:\
-  Neutrl acquires crypto assets at deep discounts through OTC deals, with enforced on-chain settlement via smart contracts or qualified custodians. These are then hedged using perpetual futures, capturing unmatched yield potential for large allocators.
+  Neutrl acquires crypto assets at deep discounts through OTC deals, with enforced on-chain settlement via smart contracts or qualified custodians. These are then hedged using perpetual futures, capturing unmatched yield potential.
 * **Delta-Neutral Hedging**:\
   To stabilize NUSD’s value, Neutrl uses derivatives to hedge market exposure. This ensures that NUSD maintains a stable value relative to its backing assets, regardless of market trends.
 
@@ -22,7 +22,7 @@ Neutrl creates a synthetic dollar, **NUSD**, that captures asymmetric yield oppo
 Neutrl leverages **basis arbitrage** opportunities in perpetual futures markets to generate additional yield:
 
 * **What is Basis Arbitrage?**\
-  In perpetual futures markets, the futures price of an asset often deviates from its spot price due to supply and demand imbalances, creating a "basis." Neutrl capitalizes on this spread by simultaneously holding a long position in the spot market and a short position in the futures market.
+  In perpetual futures markets, the futures price of an asset often deviates from its spot price due to supply and demand imbalances, called a "**basis spread**". Neutrl capitalizes on this spread by simultaneously holding a long position in the spot market and a short position in the futures market.
 * **Funding Rate Arbitrage**:\
   Perpetual futures contracts require traders to pay or receive funding fees to maintain price parity with the spot market. Neutrl takes advantage of this by capturing **positive funding rates**, where short positions (held by the protocol) receive periodic payments from traders holding long positions.
 * **Market Neutral Strategy**:\
@@ -46,19 +46,19 @@ The protocol maintains NUSD’s peg by using **delta hedging derivatives** again
 
 ***
 
-### **Neutrl's Built-in Positive Flywheel Effect**
+### **The Neutrl Flywheel Effect**
 
 <figure><img src=".gitbook/assets/telegram-cloud-photo-size-4-5971987738750208032-y (3).jpg" alt=""><figcaption><p>A powerful positive flywheel powers Neutrl's TVL growth, stickiness and increased yields </p></figcaption></figure>
 
-When fresh NUSD flows in, **sNUSD’s headline yield is fractionally diluted**—the very spark that ignites the flywheel:
+When new NUSD flows in, **sNUSD’s headline yield is marginally diluted**, and starts the flywheel effect as capital seeks higher returns:
 
-1. **Yield compression nudges capital out the risk-curve.**\
-   As the liquid APY drifts toward the on-chain risk-free rate, yield-hunters stake their NUSD, convert to sNUSD, or extend their existing locks to 6-, 9- or 12-month terms in search of a richer rate.
-2. **Longer locks unlock bigger trade tickets.**\
-   The moment more capital sits in those dated buckets, the treasury can scale into deeper OTC carry deals and term-basis trades that were unavailable at smaller size.
-3. **Protocol deploys, composite APY lifts.**\
-   Higher-capacity, higher-spread trades feed straight back into the yield pool; sNUSD’s auto-reindex ticks up
-4. **Rising yield pulls in the next wave of deposits.**\
-   A louder headline APR attracts fresh capital, swelling TVL and restarting the cycle.
+1. **As yield compresses, investors seek out higher yielding and riskier opportunities.**\
+   As liquid APY drifts toward the on-chain risk-free rate, yield-seekers look for higher yield. They may stake their NUSD, convert to sNUSD, or extend their existing locks to 6-, 9- or 12-month terms.
+2. **Longer lock durations unlock more opportunities.**\
+   With more capital allocated to longer terms, the protocol can deploy into more and larger OTC and basis arbitrage opportunities that are more viable at scale.
+3. **Higher deployment increases APY.**\
+   Higher returns flow back into the yield pool, automatically reindexing sNUSD and increasing APY.
+4. **Increased yield attract new deposits.**\
+   As yields rise, they attract a new wave of deposits, increasing TVL and restarting the cycle.
 
-This positive-feedback loop spins until either (a) the market runs out of attractive longer-tenor deals. Because the flywheel is **programmatic and endogenous**—no discretionary knobs, no human committee—Neutrl can surf boom-and-bust market regimes while keeping redemptions smooth and yields competitive. More deposits raise capacity, capacity raises yield, and higher yield brings the next deposits. \
+This positive feedback loop continues until the market exhausts attractive longer-tenor opportunities. Because the flywheel mechanism is fully automated—without discretionary adjustments or human committees—Neutrl can navigate volatile market conditions while maintaining smooth redemptions and competitive yields. Increased deposits expand capacity, higher capacity raises yields, and rising yields attract further deposits.
