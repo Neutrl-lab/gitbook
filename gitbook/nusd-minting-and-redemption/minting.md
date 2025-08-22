@@ -2,7 +2,7 @@
 
 Minting NUSD
 
-NUSD minting is permissionless with discretionary  safeguards enforcing full collateralization, security and efficiency.
+NUSD minting is permissionless with discretionary  and smart contract related safeguards enforcing full collateralization, security and efficiency.
 
 <figure><img src="../.gitbook/assets/Yield_2_1920.png" alt=""><figcaption></figcaption></figure>
 
