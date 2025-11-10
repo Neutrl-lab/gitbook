@@ -4,13 +4,13 @@ NUSD is a synthetic dollar backed by a diversified portfolio of yield bearing cr
 
 ## Minting NUSD
 
-Currently NUSD minting is via a permissioned process.  NUSD is minted by depositing liquid assets, such as USDC, USDT or USDe, on 1:1 dollar value basis.&#x20;
+Currently NUSD minting is via a permissionless process.  NUSD is minted by depositing liquid assets, such as USDC, USDT or USDe, on 1:1 dollar value basis.&#x20;
 
 NUSD can also be bought on the secondary market via different liquidity venues.&#x20;
 
 ## Redeeming NUSD&#x20;
 
-Users can redeem NUSD for backing assets (USDC, USDT, or USDe) at a 1:1 USD value basis. Upon redemption, the protocol burns the corresponding NUSD tokens and transfers the equivalent value in the selected backing asset to the user. Currently NUSD redemptions are only opens to users who have completed relevant KYC procedures with the protocol.
+Approved KYB/KYC counterparties may redeem NUSD for backing assets (USDC, USDT, or USDe) at a 1:1 USD value basis. Upon redemption, the protocol burns the corresponding NUSD tokens and transfers the equivalent value in the selected backing asset to the user. Currently NUSD redemptions are only open to users who have passed relevant KYC procedures with the protocol.
 
 #### Liquidity Management
 
@@ -25,7 +25,7 @@ The AssetReserve maintains a dynamically calibrated liquid buffer designed to se
 For redemption requests exceeding the current liquid buffer:
 
 * The protocol generates a redemption request and adds it to the processing queue
-* All queued requests are fulfilled within a 48-hour processing window
+* All queued requests aim to be fulfilled within a 48-hour processing window but is not guaranteed
 * Users retain full visibility of their redemption status throughout the process
 
 
