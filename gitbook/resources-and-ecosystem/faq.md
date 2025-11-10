@@ -152,4 +152,6 @@ Accuracy is ensured through:
 * Use of **reputable oracles and indexers** for pricing and position tracking
 * Eventual implementation of **proof-of-reserve frameworks** for off-chain holdings
 
+Independent third parties looking to assess the health and solvency of the protocol can do so through Neutrl’s Transparency Dashboard, which provides real-time visibility into reserves and liabilities. The dashboard allows anyone to verify that every NUSD in circulation is fully backed by verifiable assets. Built in collaboration with [Accountable](https://www.accountable.capital/), it leverages zero-knowledge attestations to confirm balances directly from custodians, exchanges, and smart contracts, ensuring accuracy and transparency. See Neutrl's transparency dashboard here: [https://accountable.neutrl.fi/](https://accountable.neutrl.fi/)​
+
 Trust in DeFi must be earned — and at Neutrl, transparency is not an option, it’s foundational.
