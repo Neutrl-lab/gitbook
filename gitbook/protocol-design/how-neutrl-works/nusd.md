@@ -2,6 +2,10 @@
 
 NUSD is a synthetic dollar backed by a diversified portfolio of yield bearing crypto-native assets as well as optimised liquid basis positions.
 
+Neutrl's NUSD is not the same as a fiat stablecoin like USDC or USDT. NUSD is a synthetic dollar, backed with crypto assets, liquid synthetic dollars and corresponding short futures positions. This means that the risks implicated by interacting with NUSD are inherently different.&#x20;
+
+Please refer to our extensive “Risks Section” (Insert hyperlink - https://docs.neutrl.fi/risks) for more information.
+
 ## Minting NUSD
 
 Currently NUSD minting is via a permissionless process.  NUSD is minted by depositing liquid assets, such as USDC, USDT or USDe, on 1:1 dollar value basis.&#x20;

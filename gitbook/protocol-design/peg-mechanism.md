@@ -37,23 +37,4 @@ There are two primary scenarios where arbitrage and the 1:1 redeemability mechan
 * A fraction of the reserves (e.g., 0.50%) is held directly in the mint-and-redeem contract to enable immediate redemptions, while the protocol systematically replenishes this balance from the broader reserve pool.
 * This ensures that NUSD holders can always redeem their tokens for stablecoin, providing liquidity and stability even during periods of heightened redemption activity.
 
-***
-
-**Market Resilience**
-
-The 1:1 redeemability of NUSD for USD equivalent in stablecoins ensures that the NUSD's value remains unaffected by temporary liquidity shocks or price dislocations in external markets. This feature, combined with arbitrage incentives, creates a self-correcting system that maintains NUSD's peg during periods of high demand or volatility.
-
-***
-
-**Key Benefits of the Peg Mechanism**
-
-1. **Guaranteed Redeemability**:
-   * NUSD holders can always redeem their tokens 1:1 (in USD value) for stablecoin, ensuring confidence in the token’s intrinsic value.
-2. **Self-Stabilizing System**:
-   * Arbitrage opportunities incentivize users to restore NUSD's price to its peg, without requiring active intervention by the protocol.
-3. **Liquidity Assurance**:
-   * Systematic management of stablecoin reserves ensures that redemptions occur seamlessly, even during periods of high activity.
-4. **Market Efficiency**:
-   * The protocol supports minting and redeeming on demand, encouraging arbitrage activity across centralized and decentralized markets to maintain price parity.
-5. **Resilience in Volatility**:
-   * The combination of reserve backing, liquidity management, and arbitrage mechanisms ensures stability even in volatile market conditions.
+The redeemability of NUSD for an equivalent value in stablecoins ensures that its price remains stable during temporary liquidity shocks or market dislocations. This mechanism, supported by built-in arbitrage incentives, creates a self-correcting system that helps maintain NUSD’s peg even during periods of high demand or volatility. Redemptions may take up to 48 hours to process and can be queued during periods of elevated activity.

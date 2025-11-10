@@ -1,6 +1,6 @@
 # Redemption
 
-The redemption system provides two execution paths based on AssetReserve liquidity availability, ensuring users maintain continuous access to their collateral.
+The redemption system, available to whitelisted KYC participants, provides two execution paths based on AssetReserve liquidity availability, ensuring users maintain continuous access to their collateral.
 
 <figure><img src="../.gitbook/assets/Yield_3_1920.png" alt=""><figcaption></figcaption></figure>
 
@@ -75,8 +75,6 @@ Alternative path activated when requested collateral temporarily exceeds availab
 * Redeemer performs oracle valuation and burning
 * AssetReserve releases collateral to original beneficiary
 * Updates request status to `COMPLETED`
-
-
 
 #### System Guarantees
 

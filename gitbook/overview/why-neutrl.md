@@ -25,7 +25,7 @@ Neutrl simplifies the playbook for wealth generation in crypto. We combine three
 
 <figure><img src="../.gitbook/assets/telegram-cloud-photo-size-4-5951673806160512774-y.jpg" alt=""><figcaption><p>NUSD and sNUSD are fully-backed, yield-bearing, and highly capital efficient, with a clear path towards decentralized governance.</p></figcaption></figure>
 
-#### Why Neutrl Outperforms Legacy Stablecoins
+#### Why Neutrl's Synthetic Dollar Outperforms Legacy Stablecoins
 
 * **Visible Yield:** Your balance grows every day; no need to chase pools or wrap your coins.
 * **Always Redeemable:** NUSD is always fully redeemable for USDC and USDT\`

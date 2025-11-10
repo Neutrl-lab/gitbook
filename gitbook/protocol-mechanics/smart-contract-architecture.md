@@ -16,7 +16,7 @@ Neutrl  operates through two primary interconnected systems that govern the comp
 
 **1. NUSD Minting & Redemption System**
 
-Manages the minting and redemption of NUSD tokens through collateral deposits and withdrawals, maintaining collateralization and the stablecoin's peg.
+Manages the minting and redemption of NUSD tokens through collateral deposits and withdrawals, maintaining collateralization and the synthetic dollar peg.
 
 **2. NUSD Staking & Value Accrual System**
 
