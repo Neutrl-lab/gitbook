@@ -1,6 +1,10 @@
 # Transparency
 
-Transparency is at the heart of Neutrl, ensuring that users have confidence in the stability, security, and operations of NUSD. Through regular reserve audits, custody attestations, and real-time on-chain visibility, the protocol provides full accountability and trust to its community.
+Transparency is at the heart of Neutrl, ensuring that users have confidence in the stability, security, and operations of NUSD. Through regular reserve audits, custody attestations, and real-time on-chain visibility, the protocol provides full accountability and trust to its community. \
+\
+Independent third parties looking to assess the health and solvency of the protocol can do so through Neutrl’s Transparency Dashboard, which provides real-time visibility into reserves and liabilities. The dashboard allows anyone to verify that every NUSD in circulation is fully backed by verifiable assets. Built in collaboration with [Accountable](https://www.accountable.capital/), it leverages zero-knowledge attestations to confirm balances directly from custodians, exchanges, and smart contracts, ensuring  accuracy and transparency.\
+\
+See Neutrl's transparency dashboard here: [https://accountable.neutrl.fi/](https://accountable.neutrl.fi/)
 
 ***
 
