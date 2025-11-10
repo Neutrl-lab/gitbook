@@ -2,12 +2,12 @@
 
 ### General Questions
 
-#### 1. How is this protocol different from other stablecoins, like Usual or Ethena?
+#### 1. How is this protocol different from other synthetic dollars, like Usual or Ethena?
 
-* Yield is derived primarily from OTC Locked Tokens, where the delta is fully hedged
+* Yield is aided by OTC Locked Tokens PNL, where the delta is hedged
 * The remainder of the portfolio is deployed to liquid strategies to maintain sufficient liquidity buffer in times of capital stress
 
-#### 2. How can I trust that NUSD will maintain the Stablecoin peg?
+#### 2. How can I trust that NUSD will maintain the peg?
 
 * NUSD maintains its peg through **delta-neutral strategies**, **on-chain transparency**, and **overcollateralization**:
   * **Delta-Neutral Hedging**: Derivatives and perpetual futures offset directional risk, keeping NUSD stable during market volatility.
@@ -65,14 +65,6 @@
   * **Reserve Fund Support**:\
     The protocol’s reserve fund acts as a safety net, providing additional liquidity to meet redemption demands and maintain market confidence.
 * While a mass redemption scenario represents an extreme stress test, the protocol’s focus on liquidity, diversification, and risk management ensures it can respond effectively without compromising USDn’s stability or long-term viability.
-
-### Tokenomics and Incentives
-
-#### 1. What is the purpose of the NTRL token?
-
-The **NTRL token** is the core governance and value-accrual asset of the Neutrl protocol. It plays a multi-faceted role:
-
-* **Governance:** NTRL holders govern key protocol parameters, including yield allocation, risk thresholds, collateral types, insurance pool management, and product expansion decisions.
 
 ### Security and Risk Management
 
@@ -143,21 +135,7 @@ Neutrl is built on the principles of **transparency, accountability, and verifia
 
 Over time, the protocol will progressively decentralise through **on-chain governance**, enabling the community to shape and secure Neutrl’s evolution.
 
-#### 2. How are governance decisions made?
-
-Governance is powered by the **NTRL token**, with holders able to propose and vote on protocol changes, including:
-
-* Yield allocation and incentive design
-* Risk parameters and treasury management
-* New collateral types or strategy integrations
-* Treasury spending and ecosystem grants
-* Insurance fund deployments and backstop mechanisms
-
-Proposals may initially go through a **community discussion phase**, followed by a formal **on-chain vote** via a governance interface (to be launched post-TGE).
-
-In the early stages, a **core governance council** will ensure operational stability, with progressive transition toward full community governance as NTRL is distributed more widely.
-
-#### 3. What transparency information do you provide? How do you ensure the accuracy of this information?
+#### 2. What transparency information do you provide? How do you ensure the accuracy of this information?
 
 Neutrl provides real-time, public access to key protocol data:
 

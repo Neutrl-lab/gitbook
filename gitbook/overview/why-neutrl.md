@@ -28,7 +28,7 @@ Neutrl simplifies the playbook for wealth generation in crypto. We combine three
 #### Why Neutrl's Synthetic Dollar Outperforms Legacy Stablecoins
 
 * **Visible Yield:** Your balance grows every day; no need to chase pools or wrap your coins.
-* **Always Redeemable:** NUSD is always fully redeemable for USDC and USDT\`
+* **Always Redeemable:** NUSD is always fully redeemable for USDC and USDT by whitelisted participants
 * **On-chain Risk Management:** Assets and liabilities are locked in a 1:1 duration ladder, minimizing maturity mismatches and ensuring stability.
 * **Equal Access:** With no privileged access, every holder - from individuals to large institutions - earns the same institutional-grade yields, all with the same token.
 
