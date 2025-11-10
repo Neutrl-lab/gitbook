@@ -26,13 +26,13 @@ The protocol generates revenue from diversified strategies designed to optimize 
 
 ### How Revenue is Distributed
 
-The protocol ensures that revenue generated from its various strategies is distributed fairly and efficiently to NUSD holders, aligning incentives between short-term stability and long-term protocol growth. The distribution process involves two key components:
+The protocol ensures that revenue generated from its various strategies is distributed fairly and efficiently to sNUSD holders, aligning incentives between short-term stability and long-term protocol growth. The distribution process involves two key components:
 
 #### 1. NUSD Holders
 
-**Mechanism:** NUSD holders do not receive any yield. However, NUSD is fully redeemable 1:1 for USDC at any time. This guarantees that NUSD functions as a stable and reliable store of value.
+**Mechanism:** NUSD holders do not receive any yield. However, NUSD is fully redeemable 1:1 for USDC at any time by approved counterparties. This guarantees that NUSD functions as a stable and reliable store of value.
 
-**Rationale:** By focusing on stability and liquidity, NUSD provides holders with confidence in its peg and ease of redemption, making it an ideal stablecoin for everyday use or passive holding.
+**Rationale:** By focusing on stability and liquidity, NUSD provides holders with confidence in its peg and ease of redemption, making it an ideal synthetic dollar for everyday use or passive holding.
 
 #### 2. Staking for sNUSD
 
