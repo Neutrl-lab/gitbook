@@ -2,7 +2,7 @@
 
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Typical Neutrl user flow: 1) Deposit → Mint nUSD 2) Stake → Earn sNUSD yield 3) Lock → Boost rewards.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Typical Neutrl user flow: 1) Deposit → Mint NUSD 2) Stake → Earn sNUSD yield 3) Lock → Boost rewards.</p></figcaption></figure>
 
 #### N**USD** Issuance & Redemption
 
